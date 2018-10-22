@@ -12,11 +12,9 @@ class ViewController: UIViewController {
 
     var activePlayer = 1 //cross
     var gamestate = [0, 0, 0, 0, 0, 0, 0, 0, 0]
-    var min = "kenapa"
     let winningCombination = [[0, 1, 2],[3, 4, 5],[6,7,8], [0,3,6], [1,4,7],[2,5,8],[0,4,8],[2,4,6 ]]
     var gameIsActive = true
-    
-    
+
     @IBOutlet weak var label: UILabel!
     @IBAction func Action(_ sender: AnyObject)
     {
